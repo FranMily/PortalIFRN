@@ -1,0 +1,35 @@
+
+/* Armazena valores hexadecimais em variáveis */
+:root {
+    --bg-light-white: #F8F6FC;
+    --bg-gray: #B1B1B1;
+    --green-color: #008037;
+}
+
+.logo-brand {
+    width: 200px;
+    max-width: 200px;
+}
+.bg-header-light {
+    background-color: var(--bg-light-white);
+}
+
+.bg-card {
+    background-color: var(--bg-gray);
+}
+
+.text-green {
+    color: var(--green-color);
+}
+
+body {
+    background-color: var(--green-color);
+}
+
+#map {
+    width: 96%;
+}
+
+#campi {
+    width: 65%;
+}
